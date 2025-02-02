@@ -29,5 +29,6 @@ jobs:
       env:
         URL: ${{ secrets.URL }}
         ID: ${{ secrets.ID }}
+        TOKEN: ${{ secrets.TOKEN }}
       run: |
         python main.py
