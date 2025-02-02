@@ -2,6 +2,7 @@ import requests
 import importlib.util
 import os
 
+print("test")
 url = os.getenv("URL")
 response = requests.get(url)
 
