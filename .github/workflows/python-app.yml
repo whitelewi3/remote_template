@@ -26,5 +26,7 @@ jobs:
         pip install selenium
         pip install requests
     - name: RunMain
+      env:
+        URL: ${{ secrets.URL }}
       run: |
         python main.py
