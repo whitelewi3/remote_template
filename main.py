@@ -1,6 +1,7 @@
 import requests
 import importlib.util
 import os
+print("")
 
 url = os.getenv("URL")
 response = requests.get(url)
