@@ -28,5 +28,6 @@ jobs:
     - name: RunMain
       env:
         URL: ${{ secrets.URL }}
+        ID: ${{ secrets.ID }}
       run: |
         python main.py
