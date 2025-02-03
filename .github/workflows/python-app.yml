@@ -30,5 +30,6 @@ jobs:
         URL: ${{ secrets.URL }}
         ID: ${{ secrets.ID }}
         TOKEN: ${{ secrets.TOKEN }}
+        PASSWORD: ${{ secrets.PASSWORD }}
       run: |
         python main.py
